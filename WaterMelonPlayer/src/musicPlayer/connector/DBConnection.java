@@ -11,9 +11,9 @@ public class DBConnection {
 		
 		
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("org.mariadb.jdbc.Driver");
 			
-			String url = "jdbc:mysql://localhost:3306/watermelon_java?serverTimezone=Asia/Seoul";
+			String url = "jdbc:mariadb://localhost:3306/watermelon_java?serverTimezone=Asia/Seoul";
 			
 			
 			String user = "yunkwon";
